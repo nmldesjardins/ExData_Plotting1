@@ -43,8 +43,7 @@ data$time2<-strptime(data$date_time, format="%Y-%m-%d %H:%M:%S")
 png(filename="Plot 2.png", width=480, height=480)
 
 # Generate the line graph with labels
-plot(data$time2, Global_active_power, type="l", ylab="Global Active Power 
-     (kilowatts)", xlab="")
+plot(data$time2, Global_active_power, type="l", ylab="Global Active Power (kilowatts)", xlab="")
 
 
 # Turn off png device
